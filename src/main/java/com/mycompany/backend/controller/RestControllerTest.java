@@ -35,6 +35,7 @@ public class RestControllerTest {
 	@GetMapping("/getObject")
 	public Board getObject() {
 		log.info("실행");
+		//
 		Board board = new Board();
 		board.setBno(1);
 		board.setBtitle("제목");
